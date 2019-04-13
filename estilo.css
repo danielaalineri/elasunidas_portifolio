@@ -1,0 +1,108 @@
+/* GERAL */
+
+
+* {
+
+	box-sizing: border-box;
+}
+
+body{
+
+	background-image: url(images/6.jpg);
+	font-family: "Lato", "Arial", sans-serif;
+	background-color: ghostwhite;
+}
+
+a{
+	text-decoration: none;
+
+
+}
+
+/* FONTES */
+
+.filha-um h1{
+
+	color: #4F4F4F;
+	font-size: 34px;
+
+}
+
+.filha-um h2{
+
+	color: #000;
+	font-size: 25px;
+
+}
+
+.imagem-perfil{
+
+	margin-top: 70px;
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+
+
+
+}
+
+/* SOBRE */
+
+.mae{
+
+	background-color: rgb(240, 211, 233);
+	width: 500px;
+	margin: 0 auto;
+}
+
+.filha-um{
+
+	/* font-family: 'Lato', sans-serif; */
+
+	text-align: center;
+}
+
+.filha-dois{
+
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+.filha-dois img{
+
+	width: 87px;
+	height: 86px;
+	margin-left: 40px;
+	filter: grayscale(100%);
+}
+
+
+.filha-dois img:hover{
+
+	filter: saturate(100%);
+}
+
+@media only screen and (max-width: 600px) {
+     .mae {background: red;}
+ }
+ 
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+     .mae {background: green;}
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+     .mae {background: blue;}
+ } 
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+     .mae {background: orange;}
+ } 
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+     .mae {background: whitesmoke;}
+ }
